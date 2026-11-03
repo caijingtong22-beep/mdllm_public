@@ -66,5 +66,36 @@
       ],
       "generation_time_ratio": 1.073
     }
+  },
+  "rationale_multitask128": {
+    "status": "complete; preliminary positive signal, not confirmed stable gain",
+    "training_questions": 128,
+    "updates": 32,
+    "lr": 2e-06,
+    "warmup_updates": 4,
+    "training_seed": 42,
+    "code_examples_per_update": 16,
+    "rationale_examples_per_update": 16,
+    "micro_batch": 4,
+    "auxiliary_loss_weight": 0.5,
+    "normalization": "each branch separately by supervised token count",
+    "code_objective": "original masked recovery including EOS/PAD",
+    "rationale_objective": "masked rationale body and EOS only; PAD visible and excluded",
+    "rationale_source": "existing training reference; no extra teacher",
+    "code_noise_stream_matched_to_ordinary32": true,
+    "training_forward_calls": 256,
+    "comparators": [
+      "Base",
+      "ordinary32 matching code exposure and updates",
+      "ordinary64 matching forward count but not updates/exposure"
+    ],
+    "holdout_questions": 384,
+    "holdout_is_original_dev384": false,
+    "generation_protocol": "same fixed ReMDM,128NFE,temp0.1,micro4",
+    "generation_seeds": [
+      42,
+      123
+    ],
+    "main_comparison_interval": "97.5% paired question bootstrap for each of two primary contrasts; both span zero"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "snapshot_at_beijing": "2026-11-03T19:24:04.220038+08:00",
+  "snapshot_at_beijing": "2026-11-03T20:57:23.662610+08:00",
   "scope": "curated public summary, aggregate results and core method adapter",
   "private_repository_history_included": false,
   "chat_included": false,
@@ -13,18 +13,18 @@
     },
     {
       "path": "AI_CONTEXT.zh-CN.md",
-      "bytes": 26454,
-      "sha256": "b86470da1e0d670245ec484f04ee6741406bdfcc1fcfc5856025ee9e6d63be47"
+      "bytes": 32675,
+      "sha256": "464cfbb7d48b4f197615334cf70b9a85375a244b44ddd14ab83ae04a54c09a3b"
     },
     {
       "path": "PROVENANCE.zh-CN.md",
-      "bytes": 2150,
-      "sha256": "c117f09d090e4f49ca8940428a59bcd130c374177e1219dcca1beccb608dec8c"
+      "bytes": 2472,
+      "sha256": "066ffdc8a5bb84da92156b376ab7e8928e045281d4f99ab84c59ec9a79f89205"
     },
     {
       "path": "README.md",
-      "bytes": 3296,
-      "sha256": "e9f52bf9fd0cfcca409efcb9ff5ae47989030aaee8c92bede9e911c1b369de87"
+      "bytes": 3955,
+      "sha256": "92a2ac9951cbe1585d9b65ae4006386fceb71b3a601e8f022961bce68ce5be67"
     },
     {
       "path": "methods/README.zh-CN.md",
@@ -33,8 +33,8 @@
     },
     {
       "path": "methods/protocols.json",
-      "bytes": 1443,
-      "sha256": "be459914cc07e0035ccacda0da6511f054b2fda2e385e532c4fbb6aa130ce416"
+      "bytes": 2676,
+      "sha256": "82de55efe2e4e43f5c81bc7c690a07989cdaebb47c7a800cd86f59aa7c9daac3"
     },
     {
       "path": "methods/remdm.py",
@@ -52,9 +52,19 @@
       "sha256": "811de7dc0a82c638261cd6152cd2f864082b109bd4d2a50485a8a06b007231ba"
     },
     {
+      "path": "reports/LATEST-RATIONALE-MULTITASK.zh-CN.md",
+      "bytes": 5815,
+      "sha256": "de796c235ceb15968c9879f72f26517692cf18075d11bc4aab67995967126b68"
+    },
+    {
       "path": "reports/LATEST-SFT-LOSS.zh-CN.md",
       "bytes": 5795,
       "sha256": "67a008edb99f0ceeb3a72f7aa907b9ed274b2f71316397ee9f9ad39578a74e42"
+    },
+    {
+      "path": "reports/RATIONALE-MULTITASK128.zh-CN.md",
+      "bytes": 8431,
+      "sha256": "ef86bc5c37afd062c9c19f38b1519dda5f8b48a150ecd60ecfe51394595d1e97"
     },
     {
       "path": "reports/REMDM.zh-CN.md",
@@ -78,8 +88,8 @@
     },
     {
       "path": "reports/SFT.zh-CN.md",
-      "bytes": 6202,
-      "sha256": "04394c261a398b6c2de3d6c866064f9943405d47b7ebac7659fdc75ad41045c9"
+      "bytes": 6478,
+      "sha256": "4a5512c94b965acaed538806c4ab85dd5e308dec6c80a8c3ac9750f1bb44636a"
     },
     {
       "path": "reports/loss-curves.png",
@@ -92,5 +102,5 @@
       "sha256": "e0b83eb9833b0575c3b54da5332a4a94b857b4b6d765016c2093f92d7c0fbacd"
     }
   ],
-  "latest_update": "Completed256-step optimizer-reset extension, comments-supervised SFT and independent local-project512-question holdout; aggregate public evidence only."
+  "latest_update": "Completed independent-rationale multitask SFT on new384-question holdout; positive point estimates in both seeds, primary intervals span zero; aggregate public evidence only."
 }

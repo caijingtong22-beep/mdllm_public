@@ -6,7 +6,13 @@
 
 也可直接提供 [Raw 纯文本链接](https://raw.githubusercontent.com/caijingtong22-beep/mdllm_public/main/AI_CONTEXT.zh-CN.md)，或下载该文件上传到支持附件的 AI 对话。
 
-## 最新更新：注释SFT的新512题复核已完成
+## 最新进展：独立推导辅助SFT出现初步正向信号
+
+**新留出384题上，辅助SFT两个生成种子都高于Base和两组普通SFT对照。** 均值42.58%，Base41.93%，普通32步41.41%，普通64步41.80%。相对Base+0.65个百分点、相对普通32步+1.17个百分点；两个主要97.5%配对区间仍跨零，值得复核，尚未确证稳定收益。
+
+本轮把自然语言推导作为独立辅助训练任务，评测只生成代码，固定原ReMDM预算。阅读[最新结果总览](reports/LATEST-RATIONALE-MULTITASK.zh-CN.md)或[完整聚合报告](reports/RATIONALE-MULTITASK128.zh-CN.md)。**新384题与原dev384是不同集合。**
+
+## 上一阶段：注释SFT的新512题复核
 
 **新留出题上，Base平均41.50%，普通SFT与注释SFT均为40.72%；没有复现注释版在旧dev上的小幅优势。** 256步续训也已完成：代码loss继续下降，完整生成收益仍未出现，但该实验在128步处重置了优化器，不能视为纯步数消融。
 
