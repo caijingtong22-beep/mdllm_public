@@ -6,6 +6,10 @@
 
 也可直接提供 [Raw 纯文本链接](https://raw.githubusercontent.com/caijingtong22-beep/mdllm_public/main/AI_CONTEXT.zh-CN.md)，或下载该文件上传到支持附件的 AI 对话。
 
+## 最新更新：代码补全loss下降，解题收益未出现
+
+训练128题与验证61题的固定遮盖诊断均显示代码loss下降，验证侧没有出现loss上升；完整生成正确率未同步改善。最新普通SFT、联合回改SFT、LIFT和32/64/128步曲线一并汇总在[最新SFT与loss诊断](reports/LATEST-SFT-LOSS.zh-CN.md)。详尽指标见[代码loss报告](reports/CODE-VAL-LOSS.zh-CN.md)。
+
 ## 当前结论
 
 - **SFT：尚未找到稳定优于 Base 的方案。** 多项去噪损失和代码恢复指标改善，没有转成可靠的完整程序正确率收益。

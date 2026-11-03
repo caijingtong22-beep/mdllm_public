@@ -1,5 +1,5 @@
 {
-  "snapshot_at_beijing": "2026-11-03T10:56:31.671697+08:00",
+  "snapshot_at_beijing": "2026-11-03T15:33:48.944659+08:00",
   "scope": "curated public summary, aggregate results and core method adapter",
   "private_repository_history_included": false,
   "chat_included": false,
@@ -8,49 +8,69 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "5ffce5c72320e876f769c4a97e0a49e7d147affc7e8b2448591793a9d4e589b5",
-      "bytes": 51
+      "bytes": 51,
+      "sha256": "5ffce5c72320e876f769c4a97e0a49e7d147affc7e8b2448591793a9d4e589b5"
     },
     {
       "path": "AI_CONTEXT.zh-CN.md",
-      "sha256": "a525e0ee678a01e357c6d8cf196d0a422786852bc361bce8ffea3b43bfcbe47a",
-      "bytes": 14906
+      "bytes": 20904,
+      "sha256": "279766d4af454141028006f6f447959018e111643b38a9cfabd1f253c4203df7"
     },
     {
       "path": "PROVENANCE.zh-CN.md",
-      "sha256": "2f30b4e1eff11d783d408e378c83f686e406379718956ed07fa75c0508a431ce",
-      "bytes": 1695
+      "bytes": 1941,
+      "sha256": "da7bb29600eee59f5effee59799f3ce4f6eb1b9e8e5889a3ea23d14e87a4b353"
     },
     {
       "path": "README.md",
-      "sha256": "7566efa7cf9036436849b71c3793107b584b1f282040efcd7db69b3f1a02853b",
-      "bytes": 2289
+      "bytes": 2710,
+      "sha256": "45b12211e7a0ccb9cfcf6df6b87591e2c207131491a8a05b299937fb71abb7b6"
     },
     {
       "path": "methods/README.zh-CN.md",
-      "sha256": "f51fc9a0c3154cd1ea16bd3442613dbd417378350c5eff82f25e145266125ee1",
-      "bytes": 931
+      "bytes": 931,
+      "sha256": "f51fc9a0c3154cd1ea16bd3442613dbd417378350c5eff82f25e145266125ee1"
     },
     {
       "path": "methods/protocols.json",
-      "sha256": "be459914cc07e0035ccacda0da6511f054b2fda2e385e532c4fbb6aa130ce416",
-      "bytes": 1443
+      "bytes": 1443,
+      "sha256": "be459914cc07e0035ccacda0da6511f054b2fda2e385e532c4fbb6aa130ce416"
     },
     {
       "path": "methods/remdm.py",
-      "sha256": "19c3f60135eab9eef6181fab41cedc6555f7929fe7acf0c8f391c7e5ec6f0934",
-      "bytes": 5520
+      "bytes": 5520,
+      "sha256": "19c3f60135eab9eef6181fab41cedc6555f7929fe7acf0c8f391c7e5ec6f0934"
+    },
+    {
+      "path": "reports/CODE-VAL-LOSS.zh-CN.md",
+      "bytes": 7059,
+      "sha256": "ba4ae94b291843e12c1977374050ec4dac510804019f5c3c4e4202f84ec8eb57"
+    },
+    {
+      "path": "reports/LATEST-SFT-LOSS.zh-CN.md",
+      "bytes": 5795,
+      "sha256": "67a008edb99f0ceeb3a72f7aa907b9ed274b2f71316397ee9f9ad39578a74e42"
     },
     {
       "path": "reports/REMDM.zh-CN.md",
-      "sha256": "e2a51d77ae50efcec4a75a31f173184b9d6bb984dacbf455884664d8cb4e26f0",
-      "bytes": 5452
+      "bytes": 5452,
+      "sha256": "e2a51d77ae50efcec4a75a31f173184b9d6bb984dacbf455884664d8cb4e26f0"
     },
     {
       "path": "reports/SFT.zh-CN.md",
-      "sha256": "5adc0007f623ef3a68e3cc1e90a65a917aafbd56f8ab9947eca3c2fc91357590",
-      "bytes": 5641
+      "bytes": 6001,
+      "sha256": "1936e24c85ec9af279a01b7f8c01c98adc2670d8949e8d19d125ab9a0f67b223"
+    },
+    {
+      "path": "reports/loss-curves.png",
+      "bytes": 105024,
+      "sha256": "2d4a1f15d77f3065429c058a8129e723608538591fcf5c8f601821082e1bfde6"
+    },
+    {
+      "path": "reports/loss-curves.svg",
+      "bytes": 53809,
+      "sha256": "e0b83eb9833b0575c3b54da5332a4a94b857b4b6d765016c2093f92d7c0fbacd"
     }
   ],
-  "latest_update": "Fixed ReMDM confirmation512 completed; positive paired result, no SFT claim"
+  "latest_update": "Completed train/validation code-loss diagnosis, matched SFT/remasking/LIFT comparisons and full-generation learning curve; aggregate public evidence only."
 }
