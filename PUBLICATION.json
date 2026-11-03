@@ -1,5 +1,5 @@
 {
-  "snapshot_at_beijing": "2026-11-03T15:33:48.944659+08:00",
+  "snapshot_at_beijing": "2026-11-03T19:24:04.220038+08:00",
   "scope": "curated public summary, aggregate results and core method adapter",
   "private_repository_history_included": false,
   "chat_included": false,
@@ -13,18 +13,18 @@
     },
     {
       "path": "AI_CONTEXT.zh-CN.md",
-      "bytes": 20904,
-      "sha256": "279766d4af454141028006f6f447959018e111643b38a9cfabd1f253c4203df7"
+      "bytes": 26454,
+      "sha256": "b86470da1e0d670245ec484f04ee6741406bdfcc1fcfc5856025ee9e6d63be47"
     },
     {
       "path": "PROVENANCE.zh-CN.md",
-      "bytes": 1941,
-      "sha256": "da7bb29600eee59f5effee59799f3ce4f6eb1b9e8e5889a3ea23d14e87a4b353"
+      "bytes": 2150,
+      "sha256": "c117f09d090e4f49ca8940428a59bcd130c374177e1219dcca1beccb608dec8c"
     },
     {
       "path": "README.md",
-      "bytes": 2710,
-      "sha256": "45b12211e7a0ccb9cfcf6df6b87591e2c207131491a8a05b299937fb71abb7b6"
+      "bytes": 3296,
+      "sha256": "e9f52bf9fd0cfcca409efcb9ff5ae47989030aaee8c92bede9e911c1b369de87"
     },
     {
       "path": "methods/README.zh-CN.md",
@@ -47,6 +47,11 @@
       "sha256": "ba4ae94b291843e12c1977374050ec4dac510804019f5c3c4e4202f84ec8eb57"
     },
     {
+      "path": "reports/LATEST-COMMENTS-HOLDOUT.zh-CN.md",
+      "bytes": 5442,
+      "sha256": "811de7dc0a82c638261cd6152cd2f864082b109bd4d2a50485a8a06b007231ba"
+    },
+    {
       "path": "reports/LATEST-SFT-LOSS.zh-CN.md",
       "bytes": 5795,
       "sha256": "67a008edb99f0ceeb3a72f7aa907b9ed274b2f71316397ee9f9ad39578a74e42"
@@ -57,9 +62,24 @@
       "sha256": "e2a51d77ae50efcec4a75a31f173184b9d6bb984dacbf455884664d8cb4e26f0"
     },
     {
+      "path": "reports/SFT-COMMENTS-HOLDOUT512.zh-CN.md",
+      "bytes": 3600,
+      "sha256": "02e645ca0275686caee98a73c5e225de85090d434aad899fd92c8fa5e3fe8c95"
+    },
+    {
+      "path": "reports/SFT-COMMENTS128.zh-CN.md",
+      "bytes": 3685,
+      "sha256": "294d27a649e5ab7c9605bc489cf22c3315f8c93ac6c04cbd0a09859252de690f"
+    },
+    {
+      "path": "reports/SFT-STEP256.zh-CN.md",
+      "bytes": 5226,
+      "sha256": "829c57b056be93d925778f09d5be04d48f36b6ca7f2396c4311183688ceee387"
+    },
+    {
       "path": "reports/SFT.zh-CN.md",
-      "bytes": 6001,
-      "sha256": "1936e24c85ec9af279a01b7f8c01c98adc2670d8949e8d19d125ab9a0f67b223"
+      "bytes": 6202,
+      "sha256": "04394c261a398b6c2de3d6c866064f9943405d47b7ebac7659fdc75ad41045c9"
     },
     {
       "path": "reports/loss-curves.png",
@@ -72,5 +92,5 @@
       "sha256": "e0b83eb9833b0575c3b54da5332a4a94b857b4b6d765016c2093f92d7c0fbacd"
     }
   ],
-  "latest_update": "Completed train/validation code-loss diagnosis, matched SFT/remasking/LIFT comparisons and full-generation learning curve; aggregate public evidence only."
+  "latest_update": "Completed256-step optimizer-reset extension, comments-supervised SFT and independent local-project512-question holdout; aggregate public evidence only."
 }

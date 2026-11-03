@@ -6,7 +6,13 @@
 
 也可直接提供 [Raw 纯文本链接](https://raw.githubusercontent.com/caijingtong22-beep/mdllm_public/main/AI_CONTEXT.zh-CN.md)，或下载该文件上传到支持附件的 AI 对话。
 
-## 最新更新：代码补全loss下降，解题收益未出现
+## 最新更新：注释SFT的新512题复核已完成
+
+**新留出题上，Base平均41.50%，普通SFT与注释SFT均为40.72%；没有复现注释版在旧dev上的小幅优势。** 256步续训也已完成：代码loss继续下降，完整生成收益仍未出现，但该实验在128步处重置了优化器，不能视为纯步数消融。
+
+阅读[最新结果总览](reports/LATEST-COMMENTS-HOLDOUT.zh-CN.md)，或[注释SFT512题完整报告](reports/SFT-COMMENTS-HOLDOUT512.zh-CN.md)。先前的ReMDM确认512题与此次SFT留出512题是不同集合，结论分别计算。
+
+## 上一阶段：代码补全loss下降，解题收益未出现
 
 训练128题与验证61题的固定遮盖诊断均显示代码loss下降，验证侧没有出现loss上升；完整生成正确率未同步改善。最新普通SFT、联合回改SFT、LIFT和32/64/128步曲线一并汇总在[最新SFT与loss诊断](reports/LATEST-SFT-LOSS.zh-CN.md)。详尽指标见[代码loss报告](reports/CODE-VAL-LOSS.zh-CN.md)。
 

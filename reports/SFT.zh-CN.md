@@ -75,3 +75,5 @@ docstring权重0保持文本、遮盖、损失分母及其他token权重不变�
 ## 后续更新
 
 同采样下Base/SFT、联合回改SFT、LIFT、完整生成学习曲线与训练/验证代码loss诊断已完成，见[最新汇总](LATEST-SFT-LOSS.zh-CN.md)。此前“训练题是否学好”须按不同实验区分：最新曲线训练题点估计小幅提高，但不确定区间跨0；代码补全loss则在训练及验证都下降。
+
+最新还包括[256步、注释SFT及新512题留出复核](LATEST-COMMENTS-HOLDOUT.zh-CN.md)。注释版旧dev平均41.28%，新留出未超过Base或普通SFT，不能仅凭旧dev称训练成功。
