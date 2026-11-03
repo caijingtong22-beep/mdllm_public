@@ -1,0 +1,56 @@
+{
+  "snapshot_at_beijing": "2026-11-03T10:35:23.065931+08:00",
+  "scope": "curated public summary, aggregate results and core method adapter",
+  "private_repository_history_included": false,
+  "chat_included": false,
+  "datasets_or_per_example_outputs_included": false,
+  "weights_included": false,
+  "pending": "Fixed-parameter ReMDM confirmation512 had no final report when this snapshot was prepared.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5ffce5c72320e876f769c4a97e0a49e7d147affc7e8b2448591793a9d4e589b5",
+      "bytes": 51
+    },
+    {
+      "path": "AI_CONTEXT.zh-CN.md",
+      "sha256": "4622f3ede01bfe4b78423d252148cda6c915b750fa78f45f33814b504881e03d",
+      "bytes": 12912
+    },
+    {
+      "path": "PROVENANCE.zh-CN.md",
+      "sha256": "e7d7022fc2b9096bd67941d583752e1acfa54225aabf3b6105ba56ca636f7c59",
+      "bytes": 1707
+    },
+    {
+      "path": "README.md",
+      "sha256": "e089f23d0a8343f77a486e66e7fd9310435fb07f4f508e4f5d1308dd4a09dded",
+      "bytes": 2194
+    },
+    {
+      "path": "methods/README.zh-CN.md",
+      "sha256": "f51fc9a0c3154cd1ea16bd3442613dbd417378350c5eff82f25e145266125ee1",
+      "bytes": 931
+    },
+    {
+      "path": "methods/protocols.json",
+      "sha256": "bda65cb94956aeac656c6d3af54441a777d6da785265b947ff9261d962d04e05",
+      "bytes": 1080
+    },
+    {
+      "path": "methods/remdm.py",
+      "sha256": "19c3f60135eab9eef6181fab41cedc6555f7929fe7acf0c8f391c7e5ec6f0934",
+      "bytes": 5520
+    },
+    {
+      "path": "reports/REMDM.zh-CN.md",
+      "sha256": "9271b81e4941b6fee117a88e7e5c8f177701af62c030a8156c6471f4a5832a62",
+      "bytes": 3570
+    },
+    {
+      "path": "reports/SFT.zh-CN.md",
+      "sha256": "5adc0007f623ef3a68e3cc1e90a65a917aafbd56f8ab9947eca3c2fc91357590",
+      "bytes": 5641
+    }
+  ]
+}

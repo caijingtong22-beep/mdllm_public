@@ -1,0 +1,53 @@
+{
+  "baseline_inference": {
+    "steps": 128,
+    "temperature": 0.1,
+    "micro_batch": 4,
+    "max_length": 512,
+    "generation_seeds": [
+      42,
+      123
+    ],
+    "fixed_question_order_and_batching": true
+  },
+  "gsm512_sft": {
+    "learning_rates": [
+      5e-06,
+      2e-05
+    ],
+    "updates": 128,
+    "checkpoints": [
+      64,
+      128
+    ],
+    "effective_batch": 16,
+    "micro_batch": 4,
+    "warmup_updates": 8,
+    "training_seed": 42,
+    "init": "same published EMA Base"
+  },
+  "matched128_sft": {
+    "examples": 128,
+    "lr": 5e-06,
+    "updates": 64,
+    "arms": [
+      "reference compiled programs",
+      "Base generated verified programs"
+    ],
+    "loss": "native, including docstring/code/EOS/PAD"
+  },
+  "remdm": {
+    "eta": 0.05,
+    "switch": 0.5,
+    "training": false,
+    "prefix_remask": false,
+    "final_step_remask": false,
+    "nfe": 128,
+    "selection_on_dev": true
+  },
+  "confirmation512": {
+    "status_at_snapshot": "running; no result published",
+    "fixed_remdm_parameters": true,
+    "outcome_based_tuning": false
+  }
+}
