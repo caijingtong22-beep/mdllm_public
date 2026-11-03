@@ -46,8 +46,25 @@
     "selection_on_dev": true
   },
   "confirmation512": {
-    "status_at_snapshot": "running; no result published",
+    "status_at_snapshot": "complete; both methods and both generation seeds evaluated",
     "fixed_remdm_parameters": true,
-    "outcome_based_tuning": false
+    "outcome_based_tuning": false,
+    "results": {
+      "baseline_correct": [
+        170,
+        173
+      ],
+      "remdm_correct": [
+        192,
+        193
+      ],
+      "n_questions": 512,
+      "mean_gain_percentage_points": 4.1015625,
+      "paired_95ci_percentage_points": [
+        2.44,
+        5.76
+      ],
+      "generation_time_ratio": 1.073
+    }
   }
 }

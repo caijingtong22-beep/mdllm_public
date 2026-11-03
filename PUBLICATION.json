@@ -1,11 +1,10 @@
 {
-  "snapshot_at_beijing": "2026-11-03T10:35:23.065931+08:00",
+  "snapshot_at_beijing": "2026-11-03T10:56:31.671697+08:00",
   "scope": "curated public summary, aggregate results and core method adapter",
   "private_repository_history_included": false,
   "chat_included": false,
   "datasets_or_per_example_outputs_included": false,
   "weights_included": false,
-  "pending": "Fixed-parameter ReMDM confirmation512 had no final report when this snapshot was prepared.",
   "files": [
     {
       "path": ".gitignore",
@@ -14,18 +13,18 @@
     },
     {
       "path": "AI_CONTEXT.zh-CN.md",
-      "sha256": "4622f3ede01bfe4b78423d252148cda6c915b750fa78f45f33814b504881e03d",
-      "bytes": 12912
+      "sha256": "a525e0ee678a01e357c6d8cf196d0a422786852bc361bce8ffea3b43bfcbe47a",
+      "bytes": 14906
     },
     {
       "path": "PROVENANCE.zh-CN.md",
-      "sha256": "e7d7022fc2b9096bd67941d583752e1acfa54225aabf3b6105ba56ca636f7c59",
-      "bytes": 1707
+      "sha256": "2f30b4e1eff11d783d408e378c83f686e406379718956ed07fa75c0508a431ce",
+      "bytes": 1695
     },
     {
       "path": "README.md",
-      "sha256": "e089f23d0a8343f77a486e66e7fd9310435fb07f4f508e4f5d1308dd4a09dded",
-      "bytes": 2194
+      "sha256": "7566efa7cf9036436849b71c3793107b584b1f282040efcd7db69b3f1a02853b",
+      "bytes": 2289
     },
     {
       "path": "methods/README.zh-CN.md",
@@ -34,8 +33,8 @@
     },
     {
       "path": "methods/protocols.json",
-      "sha256": "bda65cb94956aeac656c6d3af54441a777d6da785265b947ff9261d962d04e05",
-      "bytes": 1080
+      "sha256": "be459914cc07e0035ccacda0da6511f054b2fda2e385e532c4fbb6aa130ce416",
+      "bytes": 1443
     },
     {
       "path": "methods/remdm.py",
@@ -44,13 +43,14 @@
     },
     {
       "path": "reports/REMDM.zh-CN.md",
-      "sha256": "9271b81e4941b6fee117a88e7e5c8f177701af62c030a8156c6471f4a5832a62",
-      "bytes": 3570
+      "sha256": "e2a51d77ae50efcec4a75a31f173184b9d6bb984dacbf455884664d8cb4e26f0",
+      "bytes": 5452
     },
     {
       "path": "reports/SFT.zh-CN.md",
       "sha256": "5adc0007f623ef3a68e3cc1e90a65a917aafbd56f8ab9947eca3c2fc91357590",
       "bytes": 5641
     }
-  ]
+  ],
+  "latest_update": "Fixed ReMDM confirmation512 completed; positive paired result, no SFT claim"
 }
